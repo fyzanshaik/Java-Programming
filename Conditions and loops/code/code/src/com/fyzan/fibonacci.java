@@ -13,7 +13,7 @@ public class fibonacci {
 
         while (count <= n) { //
             int temp = b;
-            b += a;
+            b += a; // b = b + a
             a = temp;
             count++;
 
